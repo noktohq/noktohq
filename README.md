@@ -12,7 +12,7 @@
 
 ```ts
 const response = await nokto.run({
-  model: "sonnet-4-6",
+  model: "nokto-production",
   system: "You are Edin Nokto. You build production AI systems.",
   messages: [{ role: "user", content: "What do you ship?" }],
   // → B2B scrapers syncing 700+ variants to Shopify. Every night.
