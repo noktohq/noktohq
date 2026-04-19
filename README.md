@@ -53,16 +53,3 @@ const response = await nokto.ai.create({
 - Shopify merchants needing automation
 
 **→ edin@nokto.no**
-
-
----
-
-<div align="center">
-
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=noktohq&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=95BF47&icon_color=95BF47&text_color=c9d1d9&ring_color=95BF47&hide=prs,issues,contribs&count_private=true)](https://github.com/noktohq)
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=noktohq&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=95BF47&ring=95BF47&fire=95BF47&currStreakLabel=95BF47&sideLabels=c9d1d9&dates=c9d1d9&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/noktohq)
-
-[![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noktohq&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=95BF47&text_color=c9d1d9&count_private=true)](https://github.com/noktohq)
-
-</div>
