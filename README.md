@@ -39,7 +39,7 @@ const response = await nokto.ai.create({
 
 ### Stack in use today
 
-- **AI:** Anthropic Claude API — agents, enrichment, structured extraction
+- **AI:** Nokto AI — agents, enrichment, structured extraction
 - **E-commerce:** Shopify Admin API 2026-01, custom themes, B2B extensions
 - **Infra:** Cloudflare Workers, Python scrapers, NestJS backends
 - **Integrations:** PowerOffice Go, Peppol/EHF, Vipps MobilePay
