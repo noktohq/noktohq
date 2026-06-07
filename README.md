@@ -4,7 +4,7 @@
 
 # Edin Nokto
 
-**Automatisering og AI-pipelines for norsk e-handel.**
+**Drifter ett selskap med AI. Én person. Ingen manuell formatering.**
 
 [![nokto.no](https://img.shields.io/badge/nokto.no-000?style=flat-square&logo=safari&logoColor=95BF47)](https://nokto.no) [![Email](https://img.shields.io/badge/edin@nokto.no-000?style=flat-square&logo=gmail&logoColor=95BF47)](mailto:edin@nokto.no)
 
@@ -13,14 +13,14 @@
 ```ts
 const response = await nokto.run({
   model: "nokto-production",
-  system: "Du er Edin Nokto. Du driver AI-operasjoner i produksjon.",
-  messages: [{ role: "user", content: "Hva kjører nå?" }],
-  // → B2B-scrapere synkroniserer 700+ varianter til Shopify. Nattlig.
-  // → AI beriker produktkataloger automatisk — beskrivelser, priser, policy.
-  // → EHF-fakturaeksport direkte til PowerOffice Go via Peppol.
-  // → Nokto Ops: agentkjøringer, datasynk og e-handelspipelines — hele natten.
+  system: "Du er Edin Nokto. Én person. Fullt operativt selskap.",
+  messages: [{ role: "user", content: "Hva produserer systemet?" }],
+  // → Salg: scoring → kald kontakt → inntaksskjema → tilbud → kontrakt.
+  // → Regnskap: MVA-melding og årsoppgjer mot NS4102. Alltid til menneskelig review.
+  // → Brand, design, markedsføring og print — leveransemotorer, ikke maler.
+  // → Shopify: catalog storefront, Vipps ePayment, launch checklist.
   //
-  // Ingen manuell jobb. Alt i prod.
+  // Input inn. Ferdig dokument ut. CI blokkerer merge ved feil.
 })
 ```
 
@@ -28,29 +28,23 @@ const response = await nokto.run({
 
 ### Hva kjører
 
-| System | Skala |
-|--------|-------|
-| B2B → Shopify-synk | 700+ varianter, nattlig — Merida, Ecoride, CSN |
-| AI-produktberikelse | Beskrivelser, prising og lagerpolicy via Nokto API |
-| Nokto Ops | Agentbasert datainnhenting og synkronisering i skala |
-| EHF-fakturering | Peppol-kompatibel eksport til PowerOffice Go |
-| Shopify Partners | Tilpassede apper, temaer og B2B-kasserutvidelser |
+| Pipeline | Hva den leverer |
+|----------|-----------------|
+| Salg | Scoring, kald kontakt, tilbud, kontrakt |
+| Regnskap | MVA-melding, årsoppgjer — NS4102, alltid til review |
+| Brand | BrandVoice, Brandbook, CIM, Pressekit |
+| Markedsføring | Landingsside, e-postmal, OG/SEO, annonse-kreativ |
+| Shopify | Catalog storefront, Vipps ePayment, launch checklist |
 
 ---
 
 ### Stack
 
-- **AI:** Nokto AI — agenter, berikelse, strukturert ekstraksjon
-- **E-handel:** Shopify Admin API 2026-01, tilpassede temaer, B2B-utvidelser
-- **Infra:** Cloudflare Workers, Python-scrapere, NestJS-backends
-- **Integrasjoner:** PowerOffice Go, Peppol/EHF, Vipps MobilePay
+- **Primær IDE:** Claude Code
+- **Validering:** Python — CI validerer alle motorer ved push
+- **Integrasjoner:** Shopify Admin API 2026-01, Vipps ePayment, MCP-servere
+- **CI:** GitHub Actions — blokkerer merge ved feil
 
 ---
-
-### Kontakt
-
-- Investorsamtaler
-- Tekniske partnerskap
-- Shopify-netthandlere som trenger automatisering
 
 **→ edin@nokto.no**
