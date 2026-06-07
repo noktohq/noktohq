@@ -4,7 +4,7 @@
 
 # Edin Nokto
 
-**Produksjons-AI. Nattlige kjøringer. Fra Norge.**
+**Automatisering og AI-pipelines for norsk e-handel.**
 
 [![nokto.no](https://img.shields.io/badge/nokto.no-000?style=flat-square&logo=safari&logoColor=95BF47)](https://nokto.no) [![Email](https://img.shields.io/badge/edin@nokto.no-000?style=flat-square&logo=gmail&logoColor=95BF47)](mailto:edin@nokto.no)
 
