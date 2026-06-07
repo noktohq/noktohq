@@ -4,7 +4,7 @@
 
 # Edin Nokto
 
-**I build systems that run while you sleep.**
+**Produksjons-AI. Nattlige kjøringer. Fra Norge.**
 
 [![nokto.no](https://img.shields.io/badge/nokto.no-000?style=flat-square&logo=safari&logoColor=95BF47)](https://nokto.no) [![Email](https://img.shields.io/badge/edin@nokto.no-000?style=flat-square&logo=gmail&logoColor=95BF47)](mailto:edin@nokto.no)
 
@@ -13,43 +13,44 @@
 ```ts
 const response = await nokto.run({
   model: "nokto-production",
-  system: "You are Edin Nokto. You build production AI systems.",
-  messages: [{ role: "user", content: "What do you ship?" }],
-  // → B2B scrapers syncing 700+ variants to Shopify. Every night.
-  // → AI pipelines enriching product catalogs at scale.
-  // → Peppol-compliant EHF invoicing for Norwegian merchants.
-  // → Custom Shopify themes and checkout extensions.
+  system: "Du er Edin Nokto. Du driver AI-operasjoner i produksjon.",
+  messages: [{ role: "user", content: "Hva kjører nå?" }],
+  // → B2B-scrapere synkroniserer 700+ varianter til Shopify. Nattlig.
+  // → AI beriker produktkataloger automatisk — beskrivelser, priser, policy.
+  // → EHF-fakturaeksport direkte til PowerOffice Go via Peppol.
+  // → Nokto Ops: agentkjøringer, datasynk og e-handelspipelines — hele natten.
   //
-  // Ships to production. Nightly. From Norway.
+  // Ingen manuell jobb. Alt i prod.
 })
 ```
 
 ---
 
-### What runs in production
+### Hva kjører
 
-| System | Scale |
+| System | Skala |
 |--------|-------|
-| B2B to Shopify sync | 700+ variants synced nightly — Merida, Ecoride, CSN |
-| AI product enrichment | Automated descriptions, pricing & inventory policy via Nokto API |
-| Shopify Partners | Custom Shopify apps, themes and B2B extensions for e-commerce merchants |
-| EHF invoicing | Peppol-compliant invoice export to PowerOffice Go |
+| B2B → Shopify-synk | 700+ varianter, nattlig — Merida, Ecoride, CSN |
+| AI-produktberikelse | Beskrivelser, prising og lagerpolicy via Nokto API |
+| Nokto Ops | Agentbasert datainnhenting og synkronisering i skala |
+| EHF-fakturering | Peppol-kompatibel eksport til PowerOffice Go |
+| Shopify Partners | Tilpassede apper, temaer og B2B-kasserutvidelser |
 
 ---
 
-### Stack in use today
+### Stack
 
-- **AI:** Nokto AI — agents, enrichment, structured extraction
-- **E-commerce:** Shopify Admin API 2026-01, custom themes, B2B extensions
-- **Infra:** Cloudflare Workers, Python scrapers, NestJS backends
-- **Integrations:** PowerOffice Go, Peppol/EHF, Vipps MobilePay
+- **AI:** Nokto AI — agenter, berikelse, strukturert ekstraksjon
+- **E-handel:** Shopify Admin API 2026-01, tilpassede temaer, B2B-utvidelser
+- **Infra:** Cloudflare Workers, Python-scrapere, NestJS-backends
+- **Integrasjoner:** PowerOffice Go, Peppol/EHF, Vipps MobilePay
 
 ---
 
-### Open to
+### Kontakt
 
-- Investor conversations
-- Technical partnerships
-- Shopify merchants needing automation
+- Investorsamtaler
+- Tekniske partnerskap
+- Shopify-netthandlere som trenger automatisering
 
 **→ edin@nokto.no**
