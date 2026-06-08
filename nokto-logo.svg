@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="Nokto">
+  <title>Nokto</title>
+  <defs>
+    <linearGradient id="wg" x1="0" y1="0" x2="760" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0fff4"/>
+      <stop offset="1" stop-color="#95BF47"/>
+    </linearGradient>
+    <linearGradient id="ig" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#95BF47"/>
+      <stop offset="1" stop-color="#B8E05A"/>
+    </linearGradient>
+    <mask id="a" maskUnits="userSpaceOnUse">
+      <rect width="180" height="180" fill="#fff"/>
+      <rect x="69" y="51" width="42" height="42" rx="18" fill="#000"/>
+    </mask>
+    <mask id="b" maskUnits="userSpaceOnUse">
+      <rect width="180" height="180" fill="#fff"/>
+      <rect x="69" y="87" width="42" height="42" rx="18" fill="#000"/>
+    </mask>
+  </defs>
+  <!-- Mark (180×180) -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#000" stroke-opacity=".55" stroke-width="14.7">
+      <rect x="33" y="61" width="115" height="59" rx="29" transform="rotate(-28 90 90)"/>
+      <rect x="33" y="61" width="115" height="59" rx="29" transform="rotate(28 90 90)"/>
+    </g>
+    <g stroke="url(#ig)" stroke-width="11.5">
+      <rect x="33" y="61" width="115" height="59" rx="29" transform="rotate(-28 90 90)" mask="url(#a)"/>
+      <rect x="33" y="61" width="115" height="59" rx="29" transform="rotate(28 90 90)" mask="url(#b)"/>
+    </g>
+  </g>
+  <!-- Wordmark -->
+  <text x="218" y="125"
+        font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif"
+        font-weight="800"
+        font-size="90"
+        letter-spacing="14"
+        fill="url(#wg)">NOKTO</text>
+</svg>
