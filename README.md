@@ -13,8 +13,8 @@
 ```ts
 const response = await nokto.run({
   model: "nokto-production",
-  system: "Du er Edin Nokto. Én person. Fullt operativt selskap.",
-  messages: [{ role: "user", content: "Hva produserer systemet?" }],
+  system: "Internt operativsystem for levering. Én jobb per motor. Ingen unntak.",
+  messages: [{ role: "user", content: "Hva kjører nå?" }],
   // → Salg: scoring → åpningsmelding → intakeskjema → tilbud → kontrakt.
   // → Regnskap: bilag, MVA-melding og årsoppgjør mot NS4102. Alltid til menneskelig review.
   // → Brand, design, markedsføring og print — leveransemotorer, ikke maler.
