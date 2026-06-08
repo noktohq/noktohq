@@ -36,7 +36,7 @@ const response = await nokto.run({
 | Design | Designtokens, designsystem, WCAG og microcopy |
 | Markedsføring | Landingssider, OG/SEO, e-post og annonser |
 | Shopify | Produktflyt, katalog, lansering og Vipps-betaling |
-| Datasynk | Leverandørdata, lager, priser, produkter og drift inn i ett system |
+| Datasynk | Leverandørdata, lager, priser, produkter inn i ett system |
 | System | Router, validator, quality gate og CI |
 
 ## Regler
