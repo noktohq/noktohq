@@ -10,8 +10,6 @@ Edin Nokto
 
 Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og repeterbar output — ikke promptkaos, ikke tilfeldige maler, ikke manuell hukommelse. Router velger riktig motor. Domeneregler styrer output. Validator stopper mangler. Quality gate blokkerer svak leveranse. CI stopper feil før merge. Input inn. Ferdig leveranse ut.
 
-[nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
-
 ```ts
 const response = await nokto.run({
   mode: "production",
@@ -52,3 +50,5 @@ Dry-run før mutasjon.
 Menneskelig review der risiko krever det.
 CI stopper feil før merge.
 ```
+
+[nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
