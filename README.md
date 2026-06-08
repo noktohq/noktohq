@@ -8,21 +8,7 @@ Edin Nokto
 
 **Operativ AI-infrastruktur. 1 person. Full leveransemotor.**
 
-Internt operativsystem for levering.<br>
-Bygget for fart, presisjon, kontroll og repeterbar output.
-
-Ikke promptkaos.<br>
-Ikke tilfeldige maler.<br>
-Ikke manuell hukommelse.
-
-Router velger riktig motor.<br>
-Domeneregler styrer output.<br>
-Validator stopper mangler.<br>
-Quality gate blokkerer svak leveranse.<br>
-CI stopper feil før merge.
-
-Input inn.<br>
-Ferdig leveranse ut.
+Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og repeterbar output — ikke promptkaos, ikke tilfeldige maler, ikke manuell hukommelse. Router velger riktig motor. Domeneregler styrer output. Validator stopper mangler. Quality gate blokkerer svak leveranse. CI stopper feil før merge. Input inn. Ferdig leveranse ut.
 
 [nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
 
