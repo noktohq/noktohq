@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/noktohq/noktohq/chaos-main/mark.png" width="80" height="80" alt="Nokto" />
+<img src="nokto-logo.svg" alt="Nokto" width="600"/>
 </div>
 
 # NOKTO
