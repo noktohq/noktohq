@@ -8,7 +8,21 @@ Edin Nokto
 
 **Operativ AI-infrastruktur. 1 person. Full leveransemotor.**
 
-Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og repeterbar output — ikke promptkaos, ikke tilfeldige maler, ikke manuell hukommelse. Router velger riktig motor. Domeneregler styrer output. Validator stopper mangler. Quality gate blokkerer svak leveranse. CI stopper feil før merge. Input inn. Ferdig leveranse ut.
+Internt operativsystem for levering.<br>
+Bygget for fart, presisjon, kontroll og repeterbar output.
+
+Ikke promptkaos.<br>
+Ikke tilfeldige maler.<br>
+Ikke manuell hukommelse.
+
+Router velger riktig motor.<br>
+Domeneregler styrer output.<br>
+Validator stopper mangler.<br>
+Quality gate blokkerer svak leveranse.<br>
+CI stopper feil før merge.
+
+Input inn.<br>
+Ferdig leveranse ut.
 
 [nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
 
@@ -33,11 +47,11 @@ const response = await nokto.run({
 
 | Pipeline | Leveranse |
 |---|---|
-| Salg | Scoring, åpning, intake, tilbud og kontrakt |
+| Salg | Scoring, åpningsmeldinger, intake, tilbud og kontrakt |
 | Regnskap | Bilag, MVA, årsoppgjør og review |
 | Brand | BrandVoice, brandbook, partner-kit og pressekit |
 | Design | Tokens, designsystem, WCAG og microcopy |
-| Markedsføring | Landingssider, SEO, e-post og annonser |
+| Markedsføring | Landingssider, OG/SEO, e-post og annonser |
 | Shopify | Produktflyt, katalog, launch og Vipps ePayment |
 | B2B-synk | Merida, Ecoride og CSN til Shopify |
 | System | Router, validator, quality gate og CI |
