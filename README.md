@@ -15,7 +15,6 @@ Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og rep
 ```ts
 const response = await nokto.run({
   mode: "production",
-  system: "Operativ AI-infrastruktur for levering.",
   input: "Hva skal leveres?",
   route: {
     project: "auto",
