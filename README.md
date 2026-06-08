@@ -1,5 +1,5 @@
 <div align="center">
-<img src="nokto-logo.svg" alt="Nokto" width="600"/>
+<img src="nokto-logo.svg" alt="Nokto" width="360"/>
 </div>
 
 
