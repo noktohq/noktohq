@@ -6,7 +6,7 @@
 
 Edin Nokto
 
-**Operativ AI-infrastruktur. 1 person. Full leveransemotor.**
+**Operativ AI-infrastruktur. 1 person. Komplett leveransemotor.**
 
 Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og repeterbar output — ikke promptkaos, ikke tilfeldige maler, ikke manuell hukommelse. Router velger riktig motor. Domeneregler styrer output. Validator stopper mangler. Quality gate blokkerer svak leveranse. CI stopper feil før merge. Input inn. Ferdig leveranse ut.
 
@@ -31,12 +31,12 @@ const response = await nokto.run({
 
 | Pipeline | Leveranse |
 |---|---|
-| Salg | Scoring, åpningsmeldinger, intake, tilbud og kontrakt |
-| Regnskap | Bilag, MVA, årsoppgjør og review |
+| Salg | Scoring, åpningsmeldinger, intakeskjema, tilbud og kontrakt |
+| Regnskap | Bilag, MVA, årsoppgjør og kontroll |
 | Brand | BrandVoice, brandbook, partner-kit og pressekit |
-| Design | Tokens, designsystem, WCAG og microcopy |
+| Design | Designtokens, designsystem, WCAG og microcopy |
 | Markedsføring | Landingssider, OG/SEO, e-post og annonser |
-| Shopify | Produktflyt, katalog, launch og Vipps ePayment |
+| Shopify | Produktflyt, katalog, lansering og Vipps-betaling |
 | Datasynk | Leverandørdata, lager, priser, produkter og drift inn i ett system |
 | System | Router, validator, quality gate og CI |
 
@@ -47,7 +47,7 @@ En jobb per motor.
 Strukturert input.
 Ferdig output.
 Dry-run før mutasjon.
-Menneskelig review der risiko krever det.
+Menneskelig kontroll der risiko krever det.
 CI stopper feil før merge.
 ```
 
