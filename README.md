@@ -6,6 +6,10 @@
 
 Edin Nokto · [nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
 
+**Operativ AI-infrastruktur for en person som leverer som et helt selskap.**
+
+Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og repeterbar output. Ikke promptkaos. Ikke tilfeldige maler. Ikke manuell hukommelse. Router velger riktig motor. Domeneregler styrer output. Validator stopper mangler. Quality gate blokkerer svak leveranse. CI stopper feil før merge. Input inn. Ferdig leveranse ut.
+
 ```ts
 const response = await nokto.run({
   operator: "Edin Nokto",
