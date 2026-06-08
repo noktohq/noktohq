@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/noktohq/noktohq/chaos-main/mark.png" width="80" height="80" alt="Nokto" />
 </div>
 
-# Nokto
+# NOKTO
 
 Edin Nokto
 
