@@ -37,7 +37,7 @@ const response = await nokto.run({
 | Design | Tokens, designsystem, WCAG og microcopy |
 | Markedsføring | Landingssider, OG/SEO, e-post og annonser |
 | Shopify | Produktflyt, katalog, launch og Vipps ePayment |
-| B2B-synk | Merida, Ecoride og CSN til Shopify |
+| Datasynk | Leverandørdata, lager, priser, produkter og drift inn i ett system |
 | System | Router, validator, quality gate og CI |
 
 ## Regler
