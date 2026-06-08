@@ -4,7 +4,7 @@
 
 # Nokto
 
-[nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
+Edin Nokto · [nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
 
 **Operativ AI-infrastruktur for en person som leverer som et helt selskap.**
 
@@ -26,6 +26,7 @@ Ferdig leveranse ut.
 
 ```ts
 const response = await nokto.run({
+  operator: "Edin Nokto",
   mode: "production",
   system: "Operativ AI-infrastruktur for levering.",
   input: "Hva skal leveres?",
