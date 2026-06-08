@@ -4,7 +4,7 @@
 
 # Edin Nokto
 
-**Drifter ett selskap med AI. Én person. Ingen manuell formatering.**
+**Operativ AI-infrastruktur. Én person. Fullt selskap.**
 
 [![nokto.no](https://img.shields.io/badge/nokto.no-000?style=flat-square&logo=safari&logoColor=95BF47)](https://nokto.no) [![Email](https://img.shields.io/badge/edin@nokto.no-000?style=flat-square&logo=gmail&logoColor=95BF47)](mailto:edin@nokto.no)
 
@@ -15,8 +15,8 @@ const response = await nokto.run({
   model: "nokto-production",
   system: "Du er Edin Nokto. Én person. Fullt operativt selskap.",
   messages: [{ role: "user", content: "Hva produserer systemet?" }],
-  // → Salg: scoring → kald kontakt → inntaksskjema → tilbud → kontrakt.
-  // → Regnskap: MVA-melding og årsoppgjer mot NS4102. Alltid til menneskelig review.
+  // → Salg: scoring → åpningsmelding → intakeskjema → tilbud → kontrakt.
+  // → Regnskap: bilag, MVA-melding og årsoppgjør mot NS4102. Alltid til menneskelig review.
   // → Brand, design, markedsføring og print — leveransemotorer, ikke maler.
   // → Shopify: catalog storefront, Vipps ePayment, launch checklist.
   //
@@ -30,9 +30,9 @@ const response = await nokto.run({
 
 | Pipeline | Hva den leverer |
 |----------|-----------------|
-| Salg | Scoring, kald kontakt, tilbud, kontrakt |
-| Regnskap | MVA-melding, årsoppgjer — NS4102, alltid til review |
-| Brand | BrandVoice, Brandbook, CIM, Pressekit |
+| Salg | Scoring, åpningsmelding, tilbud, kontrakt |
+| Regnskap | Bilag, MVA-melding, årsoppgjør — NS4102, alltid til review |
+| Brand | BrandVoice, Brandbook, CDN, Partner-kit, Pressekit |
 | Markedsføring | Landingsside, e-postmal, OG/SEO, annonse-kreativ |
 | Shopify | Catalog storefront, Vipps ePayment, launch checklist |
 
@@ -40,9 +40,10 @@ const response = await nokto.run({
 
 ### Stack
 
-- **Primær IDE:** Claude Code
-- **Validering:** Python — CI validerer alle motorer ved push
-- **Integrasjoner:** Shopify Admin API 2026-01, Vipps ePayment, MCP-servere
+- **Primær IDE:** Claude Code — eksekvering og leveranse
+- **Validering:** Python 3.14 — CI validerer alle motorer ved push
+- **MCP:** Node.js — servere per integrasjon
+- **E-handel:** Shopify Admin REST API 2026-01
 - **CI:** GitHub Actions — blokkerer merge ved feil
 
 ---
