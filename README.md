@@ -6,7 +6,7 @@
 
 Edin Nokto
 
-**Operativ AI-infrastruktur. 1 person. Komplett leveransemotor.**
+**Operativ AI-infrastruktur. En person. Komplett leveransemotor.**
 
 Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og repeterbar output — ikke promptkaos, ikke tilfeldige maler, ikke manuell hukommelse. Router velger riktig motor. Domeneregler styrer output. Validator stopper mangler. Quality gate blokkerer svak leveranse. CI stopper feil før merge. Input inn. Ferdig leveranse ut.
 
