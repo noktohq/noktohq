@@ -2,7 +2,6 @@
 <img src="nokto-logo.svg" alt="Nokto" width="600"/>
 </div>
 
-# NOKTO
 
 Edin Nokto
 
