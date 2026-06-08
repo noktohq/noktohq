@@ -29,6 +29,19 @@ const response = await nokto.run({
 // Ingen output uten kontroll.
 ```
 
+## Hva kjører
+
+| Pipeline | Leveranse |
+|---|---|
+| Salg | Scoring, åpning, intake, tilbud og kontrakt |
+| Regnskap | Bilag, MVA, årsoppgjør og review |
+| Brand | BrandVoice, brandbook, partner-kit og pressekit |
+| Design | Tokens, designsystem, WCAG og microcopy |
+| Markedsføring | Landingssider, SEO, e-post og annonser |
+| Shopify | Produktflyt, katalog, launch og Vipps ePayment |
+| B2B-synk | Merida, Ecoride og CSN til Shopify |
+| System | Router, validator, quality gate og CI |
+
 ## Regler
 
 ```
