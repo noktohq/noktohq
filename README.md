@@ -2,52 +2,41 @@
 <img src="nokto-logo.svg" alt="Nokto" width="360"/>
 </div>
 
+**Edin Nokto** — Fullstack- og AI-utvikler.
 
-Edin Nokto
+Produksjonssystemer. AI-infrastruktur. E-handel, betaling og drift.
 
-**Operativ AI-infrastruktur. En person. Komplett leveransemotor.**
+---
 
-Internt operativsystem for levering. Bygget for fart, presisjon, kontroll og repeterbar output — ikke promptkaos, ikke tilfeldige maler, ikke manuell hukommelse. Router velger riktig motor. Domeneregler styrer output. Validator stopper mangler. Quality gate blokkerer svak leveranse. CI stopper feil før merge. Input inn. Ferdig leveranse ut.
+## Nokto OPS
 
-```ts
-const response = await nokto.run({
-  mode: "production",
-  input: "Hva skal leveres?",
-  route: {
-    project: "auto",
-    task: "auto",
-    engine: "required",
-  },
-  gates: ["validator", "quality-gate", "ci"],
-});
+Privat operativ infrastruktur. Driver Noktos leveranser og klientdrift.
 
-// En person.
-// Mange motorer.
-// Ingen output uten kontroll.
-```
-
-## Hva kjører
-
-| Pipeline | Leveranse |
+| System | Status |
 |---|---|
-| Salg | Scoring, åpningsmeldinger, intakeskjema, tilbud og kontrakt |
-| Regnskap | Bilag, MVA, årsoppgjør og kontroll |
-| Brand | BrandVoice, brandbook, partner-kit og pressekit |
-| Design | Designtokens, designsystem, WCAG og microcopy |
-| Markedsføring | Landingssider, OG/SEO, e-post og annonser |
-| Shopify | Produktflyt, katalog, lansering og Vipps-betaling |
-| Datasynk | Leverandørdata, lager, priser, produkter inn i ett system |
-| System | Router, validator, quality gate og CI |
+| B2B-lagersynk → Shopify | Daglig drift, automatisert |
+| AI-arbeidsflyter — salg, regnskap, design, markedsføring | Aktiv |
+| Multi-agent-orkestrator — Claude Code + Codex | Testet, PR-basert, aldri auto-merge |
+| EHF/Peppol-fakturering for Shopify | Produksjon |
+
+## Åpen kildekode
+
+| Prosjekt | Gjør | Stack |
+|---|---|---|
+| [nokto-ai-output-validator](https://github.com/noktohq/nokto-ai-output-validator) | Validerer LLM-output mot skjema før bruk | Python |
+| [nokto-data-validator](https://github.com/noktohq/nokto-data-validator) | Skjemavalidering av strukturerte Markdown-biblioteker | Python |
+| [nokto-shopify-sync-core](https://github.com/noktohq/nokto-shopify-sync-core) | Lager- og prissynk mot Shopify Admin API, per SKU | Python |
+| [nokto-integration-kit](https://github.com/noktohq/nokto-integration-kit) | MCP-proxy for Shopify Catalog med OAuth | Node.js |
+
+Egen testsuite og CI i hvert prosjekt.
 
 ## Regler
 
 ```
-En jobb per motor.
-Strukturert input.
-Ferdig output.
-Dry-run før mutasjon.
-Menneskelig kontroll der risiko krever det.
-CI stopper feil før merge.
+Hemmeligheter kun i miljøvariabler.
+Ingen påstand uten tester bak.
+Branch og pull request. Aldri direkte til main.
+Ingen automatisk merge.
 ```
 
 [nokto.no](https://nokto.no) · [edin@nokto.no](mailto:edin@nokto.no)
