@@ -18,7 +18,7 @@ Open infrastructure for production AI that cannot exceed its mandate. Two rules 
 | [nokto-ai-output-validator](https://github.com/noktohq/nokto-ai-output-validator) | Rejects LLM output before use: invalid JSON, missing fields, wrong types, enum violations, unfilled `{{PLACEHOLDER}}` tokens. Checks structure, not truth. | 11 | pytest |
 | [nokto-shopify-sync-core](https://github.com/noktohq/nokto-shopify-sync-core) | Shopify Admin client for SKU-based inventory and price sync. Honours `Retry-After` on 429, cursor pagination, OAuth client-credentials tokens. | 8 | pytest |
 | [nokto-data-validator](https://github.com/noktohq/nokto-data-validator) | Schema validation of structured Markdown libraries. No runtime dependencies. | 6 | pytest |
-| [nokto-integration-kit](https://github.com/noktohq/nokto-integration-kit) | MCP stdio proxy for the Shopify Catalog API with OAuth token refresh and request timeouts. | none yet | `node --check` |
+| [nokto-integration-kit](https://github.com/noktohq/nokto-integration-kit) | MCP stdio proxy for the Shopify Catalog API with OAuth token refresh and request timeouts. | 7 | `node --check` · `node --test` |
 
 All MIT. Test counts are from the suites as they run offline in CI; none of them call a paid model.
 
